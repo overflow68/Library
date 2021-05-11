@@ -1,0 +1,33 @@
+body{
+    background-color: #669999;
+}
+#insertBookContainer{
+    background-color: #1e7299;
+    margin: 20px auto;
+    width:270px;
+    height: 320px;
+    padding:25px;
+    border-radius: 5%;
+    color:chartreuse;
+    
+}
+
+#submit{
+    float: left;
+    margin:9px;
+    
+}
+#cancel{
+    float:right;
+    margin:9px;
+    
+}
+
+.bookCard{
+    width:240px;
+    height:290px;
+    background-color:#1e7299;
+    color:chartreuse;
+    border-radius: 5%;
+
+}

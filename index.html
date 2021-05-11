@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <title>Library</title>
+  </head>
+  <body>
+      <button id="showForm">Add book</button>
+      <div style="display: none" id = "insertBookContainer">
+          <label>Title:</label><br>
+          <input type= "text" id="bookTitle"><br><br>
+
+          <label>Author:</label><br>
+          <input type= "text" id="Author"><br><br>
+
+          <label>Pages:</label><br>
+          <input type= "text" id="Author"><br><br>
+
+          <input type="radio" name="readOrNO" id="read"  value="Read">
+          <label for="read">Read</label>
+
+          <input type="radio" name="readOrNO" id="notRead"  value="Not Read">
+          <label for="notRead">Not read</label><br><br>
+          <button id="submit">Submit</button>
+          <button id="cancel">Cancel</button>
+    
+    
+    </div>
+    <div id ="bookContainer"></div>
+  
+  </body>
+  <script src="main.js"></script>
+</html>
