@@ -29,5 +29,13 @@ body{
     background-color:#1e7299;
     color:chartreuse;
     border-radius: 5%;
+    margin:5px;
+    text-align: center;
 
+}
+
+#bookContainer{
+    margin:20px auto;
+    display:flex;
+    padding: 10px;
 }
