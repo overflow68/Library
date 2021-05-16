@@ -24,18 +24,29 @@ body{
 }
 
 .bookCard{
-    width:240px;
-    height:290px;
+    width:250px;
+    height:280px;
     background-color:#1e7299;
     color:chartreuse;
     border-radius: 5%;
     margin:5px;
     text-align: center;
+    display:inline-block;
+   
 
 }
 
 #bookContainer{
     margin:20px auto;
-    display:flex;
-    padding: 10px;
+    display:block;
+    
+}
+
+.cardButton{
+    display:inline-block;
+    width:40%;
+    height:15%;
+    margin:3px;
+    
+
 }
